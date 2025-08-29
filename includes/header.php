@@ -34,10 +34,10 @@
         <a class="nav-link text-dark" href="#">Contact</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="login.php">Login</a>
+        <a class="nav-link text-dark" href="login.html">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="register.php">Register</a>
+        <a class="nav-link text-dark" href="register.html">Register</a>
       </li>
     </ul>
     
