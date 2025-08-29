@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Document</title>
-    <!-- Bootstrap CSS -->
+    
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoIoPZyQF6xrL27vlzzq5rxpL6a9gN1l9+9e/+qk0zV3Qbs"
       crossorigin="anonymous"
     />
-    <!-- Bootstrap Icons (optional for your icons) -->
+   
     <link 
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" 
       rel="stylesheet"
@@ -56,7 +56,7 @@
         </div>
     </footer>
 
-    <!-- Bootstrap JS Bundle with Popper (optional if you use Bootstrap JS components) -->
+    
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoIoPZyQF6xrL27vlzzq5rxpL6a9gN1l9+9e/+qk0zV3Qbs"
