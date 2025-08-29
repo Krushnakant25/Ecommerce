@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-
-<nav class="navbar bg-light">
-  <div class="container d-flex align-items-center">
     
-    <!-- Logo -->
-    <a class="navbar-brand me-5" href="#">
-      <img src="https://via.placeholder.com/120x40?text=Logo" alt="Logo" height="40">
-    </a>
+    <footer class="bg-light text-dark pt-1 mt-5">
+        <div class="container">
+            <div class="row">
+                    <!-- about -->
+                     <div class="col-md-4 mb-3">
+                            <h5>About Us</h5>
+                            <p>We offer quality products at best prices. Shop your favourite items now</p>
+                     </div>
 
-    <!-- Nav links -->
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Shop</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Contact</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
+                     <!-- Links -->
+                      <div class="col-md-4 mb-3">
+                            <h5>Quick Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#" class="text-dark text-decoration-none">Home</a></li>
+                                <li><a href="#" class="text-dark text-decoration-none">Shop</a></li>
+                                <li><a href="#" class="text-dark text-decoration-none">About</a></li>
+                                <li><a href="#" class="text-dark text-decoration-none">Contact</a></li>
+                            </ul>
+                      </div>
+
+                      <!-- contact -->
+                       <div class="col-md-4 mb-3">
+                            <h5>Contact Us</h5>
+                            <p>Email: abc@gmail.com</p>
+                            <p>Phone: +91 1234556667</p>
+                            <p>follow us:</p>
+                            <a href="#" class="me-2 text-dark"><i class="bi bi-facebook"></i> Facebook</a><br>
+                            <a href="#" class="me-2 text-dark"><i class="bi bi-instagram"></i> Instagram</a>
+                       </div>
+                    </div>
+                    <!-- Footer Bottom -->
+                        <div class="text-center py-3 border-top mt-4">
+                            &copy; <?php echo date("Y"); ?> Your E-Commerce Site. All rights reserved.
+                        </div>
+
+                    </div>
+
+    </footer>
 
 </body>
 </html>
